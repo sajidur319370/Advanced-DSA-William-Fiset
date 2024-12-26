@@ -1,5 +1,11 @@
 package fenwickTree;
 
+/**
+ * A Fenwick Tree implementation which supports range updates and point queries
+ *
+ * @author Braj65, William Fiset
+ */
+
 public class FenwickTreeRangeUpdatePointQuery {
 
 	// The size of the array holding the Fenwick tree values

@@ -1,5 +1,17 @@
 package indexedPriorityQueue;
 
+/**
+ * An implementation of an indexed min D-ary heap priority queue.
+ *
+ * <p>This implementation supports arbitrary keys with comparable values. To use arbitrary keys
+ * (such as strings or objects) first map all your keys to the integer domain [0, N) where N is the
+ * number of keys you have and then use the mapping with this indexed priority queue.
+ *
+ * <p>As convention, I denote 'ki' as the index value in the domain [0, N) associated with a key k,
+ * therefore: ki = map[k]
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
@@ -7,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class MinIndexedBinaryHeap<T extends Comparable<T>> {
+public class MinIndexedDHeap<T extends Comparable<T>> {
 
 	// Current number of elements in the heap.
 	private int sz;
@@ -35,12 +47,12 @@ public class MinIndexedBinaryHeap<T extends Comparable<T>> {
 	public final Object[] values;
 
 	/* An implementation of an indexed binary heap priority queue. */
-	public MinIndexedBinaryHeap(int maxSize) {
+	public MinIndexedDHeap(int maxSize) {
 		this(2, maxSize);
 	}
 
 	// Initializes a D-ary heap with a maximum capacity of maxSize.
-	public MinIndexedBinaryHeap(int degree, int maxSize) {
+	public MinIndexedDHeap(int degree, int maxSize) {
 		if (maxSize <= 0)
 			throw new IllegalArgumentException("maxSize <= 0");
 

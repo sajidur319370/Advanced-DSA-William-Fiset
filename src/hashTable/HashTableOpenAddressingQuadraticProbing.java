@@ -1,5 +1,18 @@
 package hashTable;
 
+/**
+ * An implementation of a hash-table using open addressing with quadratic probing as a collision
+ * resolution method.
+ *
+ * <p>In this implementation we are using the following probing function: H(k, x) = h(k) + f(x) mod
+ * 2^n
+ *
+ * <p>Where h(k) is the hash for the given key, f(x) = (x + x^2) / 2 and n is a natural number. We
+ * are using this probing function because it is guaranteed to find an empty cell (i.e it generates
+ * all the numbers in the range [0, 2^n) without repetition for the first 2^n numbers).
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;

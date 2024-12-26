@@ -1,5 +1,10 @@
-package queue_t;
+package queue;
 
+/**
+ * A simple queue implementation with a linkedlist
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 public class Queue<T> implements Iterable<T> {
 
 	private java.util.LinkedList<T> list = new java.util.LinkedList<T>();

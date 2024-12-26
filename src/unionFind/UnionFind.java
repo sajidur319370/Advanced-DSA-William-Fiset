@@ -1,5 +1,12 @@
 package unionFind;
 
+/**
+ * UnionFind/Disjoint Set data structure implementation. This code was inspired
+ * by the union find implementation found in 'Algorithms Fourth Edition' by
+ * Robert Sedgewick and Kevin Wayne.
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 public class UnionFind {
 
 	// The number of elements in this union find

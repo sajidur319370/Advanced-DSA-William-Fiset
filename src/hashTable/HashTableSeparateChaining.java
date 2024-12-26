@@ -1,5 +1,10 @@
 package hashTable;
 
+/**
+ * An implementation of a hash-table using separate chaining with a linked list.
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;

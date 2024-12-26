@@ -1,5 +1,13 @@
 package suffixArray;
 
+/**
+ * Suffix array construction implementation.
+ *
+ * <p>
+ * Time Complexity: O(nlog(n))
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 public class SuffixArray {
 
 	private static final int DEFAULT_ALPHABET_SIZE = 256;

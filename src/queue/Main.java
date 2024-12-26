@@ -1,4 +1,4 @@
-package queue_t;
+package queue;
 
 public class Main {
 

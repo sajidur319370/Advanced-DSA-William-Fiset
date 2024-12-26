@@ -1,4 +1,4 @@
-package stack_t;
+package stack;
 
 public class Main {
 

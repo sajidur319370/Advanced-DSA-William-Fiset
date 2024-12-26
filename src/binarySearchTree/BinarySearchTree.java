@@ -1,5 +1,15 @@
 package binarySearchTree;
 
+/**
+ * This file contains an implementation of a Binary Search Tree (BST) Any comparable data is allowed
+ * within this tree (numbers, strings, comparable Objects, etc...). Supported operations include
+ * adding, removing, height, and containment checks. Furthermore, multiple tree traversal Iterators
+ * are provided including: 1) Preorder traversal 2) Inorder traversal 3) Postorder traversal 4)
+ * Levelorder traversal
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;

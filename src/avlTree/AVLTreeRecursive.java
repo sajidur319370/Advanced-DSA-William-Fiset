@@ -1,5 +1,12 @@
 package avlTree;
 
+/**
+ * This file contains an implementation of an AVL tree. An AVL tree is a special type of binary tree
+ * which self balances itself to keep operations logarithmic.
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
+
 import avlTree.TreePrinter.PrintableNode;;
 
 public class AVLTreeRecursive<T extends Comparable<T>> implements Iterable<T> {

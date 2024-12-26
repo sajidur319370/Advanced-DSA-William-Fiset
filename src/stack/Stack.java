@@ -1,5 +1,10 @@
-package stack_t;
+package stack;
 
+/**
+ * A linked list implementation of a stack
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 public class Stack<T> implements Iterable<T> {
 
 	private java.util.LinkedList<T> list = new java.util.LinkedList<T>();

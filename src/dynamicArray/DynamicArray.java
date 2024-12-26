@@ -1,5 +1,10 @@
 package dynamicArray;
 
+/**
+ * A generic dynamic array implementation
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 import java.util.Iterator;
 
 @SuppressWarnings("unchecked")

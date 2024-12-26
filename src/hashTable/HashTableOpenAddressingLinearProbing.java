@@ -1,5 +1,11 @@
 package hashTable;
 
+/**
+ * An implementation of a hash-table using open addressing with linear probing as a collision
+ * resolution method.
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
 import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
